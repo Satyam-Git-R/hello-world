@@ -1,0 +1,10 @@
+.UsrProfileImg img{
+    height: 36px;
+    width: 39px;
+    margin-right:10px;
+}
+.UsrProfileName{
+color:#ffffff;
+padding:10;
+margin-right:10px;
+}

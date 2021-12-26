@@ -1,0 +1,25 @@
+.chatPage{
+    background-color: rgb(31, 29, 29);
+    width: 100vw;
+    height: 100vh;
+}
+
+.divsec{
+    height: 20.5vw;
+    width: 46vw;
+    background-color: black;
+    margin: 20px;
+    margin-left: 25% !important;
+    border-radius: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bckspan{
+    padding: 32px;
+    color: white;
+}
+
+.bckImg{
+    height: 21vw;
+}

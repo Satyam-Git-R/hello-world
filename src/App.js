@@ -1,15 +1,18 @@
-import Greet from './components/Greet';
-import Welcome from './components/Welcome'; 
-import Form from './components/myForm'; 
-import LineChart from './components/LineChart'
+import './App.css';
+import {BrowserRouter as Router,Route,Routes} from 'react-router-dom';
+import Join from "./components/Join/Join";
+import Home from "./components/Home/Home";
 
 function App() {
+
   return (
     <div className="App">
-    <Greet />
-    <Welcome />
-    <br />
-    <div className="frm"><Form /></div>
+      <Router>
+    <Routes>
+        <Route exact path="/" element={<Join />} />
+        <Route path="/home" element={<Home />} />
+    </Routes>
+      </Router>
     </div>
   );
 }
